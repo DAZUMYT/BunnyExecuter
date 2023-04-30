@@ -1,5 +1,5 @@
 // Title: BunnyExecuter Example Payload
-// Description: Windows notification for testing purposes
+// Description: Windows notification message for testing purposes
 // AUTHOR: DAZUM
 // Version: 1.0
 
