@@ -11,12 +11,12 @@ DUCKY_LANG='us' ## Keyboard layout
 FILE_NAME='payload.exe' ## file which is executed
 ##
 
-
+## SETTINGS
 LED SETUP
 ATTACKMODE STORAGE HID
 GET SWITCH_POSITION
 LED ATTACK
-
+##
 
 Q DELAY 1000
 Q CONTROL ESCAPE
