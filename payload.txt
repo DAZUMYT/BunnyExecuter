@@ -7,7 +7,7 @@
 # Attackmodes: HID, Storage
 
 ## CHANGE THIS
-DUCKY_LANG='es' ## Keyboard layout
+DUCKY_LANG='us' ## Keyboard layout
 FILE_NAME='payload.exe' ## file which is executed
 ##
 
