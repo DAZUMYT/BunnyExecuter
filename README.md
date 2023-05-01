@@ -17,8 +17,9 @@ Attackmodes: HID, Storage
 
 ## Changes to be made in payload:
 
-    Change keyboard layout (default is set to 'us').
-    Change FILE_NAME to the name of the malware.
+    payload.txt = Change keyboard layout (default is set to 'us').
+    payload.txt = Change FILE_NAME to the name of the malware.
+    payload.exe = replace this file with malware.
 
 ## Usage:
 
